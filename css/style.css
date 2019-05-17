@@ -43,6 +43,54 @@ Table of Content:
 /*font Variables*/
 /*Color Variables*/
 
+.multi-level
+{
+  padding-top: 20px;
+  width: 220px;
+}
+
+.dropdown-submenu a
+{
+  color: #000 !important;
+}
+
+.dropdown-submenu a:hover
+{
+  color: #fdcd30 !important;
+}
+
+.products-list li
+{
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.products-list li a
+{
+  color: #f3f3f3 !important;
+}
+
+.products-list li a:hover
+{
+  color: #fdcd30 !important;
+}
+
+.multi-level li
+{
+  text-align: center;
+  margin-right: unset !important;
+  height: 35px;
+}
+
+.multi-level li a
+{
+  line-height: unset !important;
+}
+
+.dropdown-submenu>a:after
+{
+  content: unset !important;
+}
 
 .dropdown-submenu {
   position: relative;
