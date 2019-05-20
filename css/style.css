@@ -54,11 +54,64 @@ Table of Content:
   color: #000 !important;
 }
 
+.b_companu_l_text li
+{
+  list-style-type: circle;
+  font-size: 20px;
+  font-family: 'Times New Roman', Times, serif;
+}
+
 .dropdown-submenu a:hover
 {
   color: #fdcd30 !important;
 }
 
+.contact-us
+{
+  width: 100%;
+  overflow-y: auto;
+  padding:15px;
+}
+
+.contact-us-container
+{
+  width: 50%;
+  float: left;
+}
+
+.mapBox
+{
+  width: 50%;
+  float: left;
+}
+
+@media (max-width: 990px)
+{
+  .contact-us-container
+  {
+    width: 100% !important;
+  }
+
+  .mapBox
+  {
+    width: 100% !important;
+  }
+}
+
+.contact-us input
+{
+  width: 80%;
+}
+
+.contact-us textarea
+{
+  width: 80%;
+  height: 30%;
+} 
+.mapBox{
+  width: 50%;
+  float: left;
+}
 @media (max-width: 996px)
 {
     .navbar-brand img
