@@ -235,6 +235,17 @@ h1{
   padding:15px;
 }
 
+.getqk a
+{
+  
+  color: #fff !important;
+}
+
+.getqk 
+{
+  text-align: center;
+}
+
 .goc
 {
   color: white;
@@ -400,7 +411,7 @@ padding-left: 40px;
 
 .products-list li a:hover
 {
-  color: #fdcd30 !important;
+  color: #00afef !important;
 }
 
 .multi-level li
